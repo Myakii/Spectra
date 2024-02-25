@@ -1,0 +1,15 @@
+#chefSpecialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+/*  */
+
+#selectFoodContainer {
+    height: 100vh;
+    padding: 50px;
+}
+

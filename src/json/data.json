@@ -1,0 +1,272 @@
+{
+  "starter": [
+    {
+      "id": 1,
+      "image": "src/assets/starter/Pralines.jpg",
+      "name": "Pralines de la Mer Grillées ",
+      "price": 8,
+      "description": " Des crevettes juteuses grillées à la perfection, présentées avec élégance et accompagnées d'une sélection de saveurs exquises. "
+    },
+    {
+      "id": 2,
+      "image": "src/assets/starter/Eclat.jpg",
+      "name": "Éclat Soleil d'Amérique Latine ",
+      "price": 13,
+      "description": "Une fusion culinaire exquise à Maya Del Sol, où des coquilles Saint Jacque se reposent sur leur lit de purée de carottes."
+    },
+    {
+      "id": 3,
+      "image": "src/assets/starter/Harmonie.jpg",
+      "name": "Harmonie Céleste ",
+      "price": 8,
+      "description": "Ravioles Divinement Parfumées, Accompagnées d'une Sauce Douce et Exquise. "
+    },
+    {
+      "id": 4,
+      "image": "src/assets/starter/Floraison.jpg",
+      "name": "Floraison Marine ",
+      "price": 10,
+      "description": " Velouté Raffiné aux Coquilles Saint-Jacques, Accompagné d'un Pain Grillé à l'Ail. "
+    },
+    {
+      "id": 5,
+      "image": "src/assets/starter/Printanier.jpg",
+      "name": "Délice Printanier en Croûte ",
+      "price": 9,
+      "description": " Brioche aux Courgettes, Harmonie de Champignons et Tomates Cerises, Mesclun Frais, et Coulis de Citrouille Raffiné."
+    },
+    {
+      "id": 6,
+      "image": "src/assets/starter/Central.jpg",
+      "name": "Terre Central ",
+      "price": 10,
+      "description": "Viande Rôtie et Onion Rings Dorés, Alliance Gourmande ."
+    },
+    {
+      "id": 7,
+      "image": "src/assets/starter/Surprise.jpg",
+      "name": "Surprise Royal ",
+      "price": 9,
+      "description": "Pain Surprise aux Éclats de Crème et Pépites de Pains. "
+    },
+    {
+      "id": 8,
+      "image": "src/assets/starter/Oeil.jpg",
+      "name": "Oeil Divin ",
+      "price": 8,
+      "description": " Œuf Dur Mi-Cuit Enveloppé d'Avocat Crémeux et Agrémenté de Graines de Sésame"
+    },
+    {
+      "id": 9,
+      "image": "src/assets/starter/Trésor.jpg",
+      "name": "Trésor Retrouvé ",
+      "price": 12,
+      "description": "Croquette Dorée à la perfection, délicatement agrémentée de mini morceaux de Camembert fondant. "
+    },
+    {
+      "id": 10,
+      "image": "src/assets/starter/Ambrosia.jpg",
+      "name": "Ambrosia ",
+      "price": 9,
+      "description": "Une entrée exquise mariant l'onctuosité de l'avocat, la douceur de la pomme de terre, le tout sublimé par une crème blanche froide et des touches délicates d'oignon rouge."
+    }
+  ],
+  "sauce": [
+    {
+      "id": 1,
+      "name": "Sauce au Truffe Noire Intense ",
+      "description": "Une fusion exquise d'huile d'olive extra vierge, de truffe noire d'été et de notes subtiles de champignons sauvages. "
+    },
+    {
+      "id": 2,
+      "name": "Crème de Citron et Basilic Divin ",
+      "description": "Une crème veloutée infusée de zeste de citron frais et de basilic doux."
+    },
+    {
+      "id": 3,
+      "name": "Sauce au Vin Rouge Trévise ",
+      "description": "Un mariage harmonieux de vin rouge robuste, d'échalotes caramélisées et de baies de genièvre."
+    },
+    {
+      "id": 4,
+      "name": "Sauce à la Crème de Gorgonzola",
+      "description": "Une création onctueuse alliant la douceur de la crème fraîche à l'intensité du gorgonzola affiné."
+    },
+    {
+      "id": 5,
+      "name": "Sauce au Cognac et Poivre Vert ",
+      "description": "Une sauce onctueuse mariant la chaleur du poivre vert et la sophistication du cognac. "
+    }
+  ],
+  "main_dish": [
+    {
+      "id": 1,
+      "image": "src/assets/main_dish/Excellence.jpg",
+      "name": "Le Festin d'Élysée : Steak d'Excellence ",
+      "price": 18,
+      "description": "Savourez un steak d'Excellence, parfaitement grillé, reposant majestueusement sur un lit crémeux infusé d'arômes subtils d'ail et de beurre. "
+    },
+    {
+      "id": 2,
+      "image": "src/assets/main_dish/Océan.jpg",
+      "name": "Le Saumon Impérial aux Délices de l'Océan ",
+      "price": 21,
+      "description": "Un filet de saumon frais, subtilement assaisonné et cuit à la perfection, repose sur un lit de légumes croquants, accompagné d'une sauce délicate aux nuances marines."
+    },
+    {
+      "id": 3,
+      "image": "src/assets/main_dish/Noblia.jpg",
+      "name": "Le Délice du Bœuf Noblia : Rumsteak Signature ",
+      "price": 18,
+      "description": "Un rumsteak délicatement mariné et grillé à la perfection, servi avec une garniture raffinée de légumes du jour."
+    },
+    {
+      "id": 4,
+      "image": "src/assets/main_dish/Ebène.jpg",
+      "name": "Poulpe Ébène en Sérénité Méditerranéenne ",
+      "price": 23,
+      "description": "Un poulpe grillé tendre, associé à des tagliatelles à l'encre de seiche, sublimé par une sauce tomate à l'ail, le tout garni d'herbes fraîches et d'une touche de citron."
+    },
+    {
+      "id": 6,
+      "image": "src/assets/main_dish/Splendeur.jpg",
+      "name": "Splendeur des Profondeurs Grillée ",
+      "price": 20,
+      "description": "Un délice océanique avec du calmar grillé à la perfection, offrant une symphonie de saveurs raffinées pour les palais les plus exigeants."
+    },
+    {
+      "id": 7,
+      "image": "src/assets/main_dish/Fragment.jpg",
+      "name": "Fragment d'Italie ",
+      "price": 17,
+      "description": "Un mélange exquis de pâtes fines, de sauce bolognaise maison, de béchamel crémeuse et de fromages affinés, le tout gratiné à la perfection."
+    },
+    {
+      "id": 8,
+      "image": "src/assets/main_dish/Royal.jpg",
+      "name": "Le Royal Oeuf Doré ",
+      "price": 17,
+      "description": "Burger d'Exception, Délicieux Oeuf Mollet, Pain Brioché Artisanal, Agrémenté de Fromage Fondant et d'une Touche Raffinée de Sauce Secrète."
+    },
+    {
+      "id": 9,
+      "image": "src/assets/main_dish/Etoilée.jpg",
+      "name": "L'Éclat Milanaise ",
+      "price": 15.99,
+      "description": "Escalope d'Excellence, Dorée à la Panure Croustillante, Servie avec une Sauce Tomate Maison et un Soupçon de Parmesan."
+    },
+    {
+      "id": 10,
+      "image": "src/assets/main_dish/K-Mélodie.jpg",
+      "name": "K-Mélodie ",
+      "price": 15,
+      "description": "Poulet Frit Coréen d'Exception, Mariné dans des Épices Authentiques, Accompagné d'une Sauce Aigre-Douce Maison."
+    }
+  ],
+  "drink": [
+    {
+      "id": 1,
+      "image": "src/assets/dessert/Fraicheur.jpg",
+      "name": "Fraicheur d'Elite ",
+      "price": 3,
+      "alcool": "Sans alcool",
+      "description": "ne boisson rafraîchissante mêlant l'acidité subtile du citron à la fraîcheur de la menthe. "
+    },
+    {
+      "id": 2,
+      "image": "src/assets/dessert/Mystique.jpg",
+      "name": "Eclat Mystique ",
+      "price": 10,
+      "alcool": "Sans alcool",
+      "description": "Une boisson aux nuances de bleu, violet et lavande, rehaussée par la présence rafraîchissante d'un morceau de citron. "
+    },
+    {
+      "id": 3,
+      "image": "src/assets/dessert/Velours.jpg",
+      "name": "Velours Café-Chestnut",
+      "price": 6,
+      "alcool": "Sans alcool",
+      "description": "Une boisson exquise où la douceur du lait rencontre l'arôme profond du café, sublimée par une délicate touche de crème de marron."
+    },
+    {
+      "id": 4,
+      "image": "src/assets/dessert/Passion.jpg",
+      "name": "Saphir Infusion",
+      "price": 10,
+      "alcool": "Avec alcool",
+      "description": "Une boisson envoûtante mariant la profondeur du vodka finement sélectionné à la douceur sucrée."
+    },
+    {
+      "id": 5,
+      "image": "src/assets/dessert/Pourpre.jpg",
+      "name": "Éclat Pourpre de l'Amour ",
+      "price": 8,
+      "alcool": "Avec alcool",
+      "description": "Mélange artisanal de gin, délicatement teinté de nuances violettes. Agrémenté d'une tranche de pamplemousse finement coupée."
+    }
+  ],
+  "dessert": [
+    {
+      "id": 1,
+      "image": "src/assets/dessert/Saveurs.jpg",
+      "name": "Saveurs Rouges ",
+      "price": 8,
+      "description": "Un cupcake exquis, alliant la fraîcheur du citron à la douceur des fruits rouges. La crème citronnée fondante, le coulis de fruits rouges et la cerise juteuse. "
+    },
+    {
+      "id": 2,
+      "image": "src/assets/dessert/Gourmandise.jpg",
+      "name": "Gourmandise Banane-Myrtilles ",
+      "price": 10,
+      "description": "Un délice sucré mariant harmonieusement la douceur de la banane et l'acidité succulente des myrtilles."
+    },
+    {
+      "id": 3,
+      "image": "src/assets/dessert/Symphonie.jpg",
+      "name": "Symphonie Glacée ",
+      "price": 8,
+      "description": "Une composition délicate alliant la douceur de la glace vanille aux notes fraîches de la fraise, des myrtilles et des morceaux succulents de mangue et d'ananas. Couronné d'une généreuse crème chantilly."
+    },
+    {
+      "id": 4,
+      "image": "src/assets/dessert/Passion.jpg",
+      "name": "Passion Pistache",
+      "price": 9,
+      "description": "Une création exquise mariant la délicatesse de la crème à la pistache à une onctueuse compote de fruits rouges. Couronné de framboises fraîches."
+    },
+    {
+      "id": 5,
+      "image": "src/assets/dessert/Couronne.jpg",
+      "name": "Nuance couronnée ",
+      "price": 8,
+      "description": "Ces délicats biscuits en forme de couronne de cœur, subtilement parfumés à la fleur de violette."
+    }
+  ],
+  "accompaniment": [
+    {
+      "id": 1,
+      "name": "Purée de Panais et Pommes de Terre Truffée",
+      "description": "Une purée délicate et veloutée qui marie la douceur des panais à la texture crémeuse des pommes de terre, rehaussée d'une touche de truffe noire. "
+    },
+    {
+      "id": 2,
+      "name": "Épinards à la Crème Citronnée et Parmesan",
+      "description": "Des épinards frais sautés dans une délicieuse crème citronnée, agrémentés de copeaux de parmesan."
+    },
+    {
+      "id": 3,
+      "name": "Fondue de Poireaux au Beurre Noisette ",
+      "description": "Des poireaux finement émincés cuits à la perfection dans un beurre noisette, créant une fondue savoureuse et légèrement caramélisée."
+    },
+    {
+      "id": 4,
+      "name": "Ratatouille Provençale aux Herbes de Provence",
+      "description": "Un mélange coloré de légumes méditerranéens, comprenant des tomates, des aubergines, des courgettes et des poivrons, cuisiné avec des herbes de Provence."
+    },
+    {
+      "id": 5,
+      "name": "Gratin Dauphinois aux Trois Fromages ",
+      "description": "Des pommes de terre fines tranchées cuites dans une crème onctueuse, agrémentées d'un trio de fromages : gruyère, comté et parmesan. "
+    }
+  ]
+}

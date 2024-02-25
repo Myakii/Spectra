@@ -1,0 +1,20 @@
+.chefspecialSuggestion {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.headerChefSpecialSuggestion h2 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px
+}
+
+.chefspecialSuggestion img {
+    height: 40rem;
+    width: 30rem;
+}
+
+.chefspecialSuggestion img:hover {
+    box-shadow: 0 0 0px #ffd700, 0 0 0px #ffd700, 0 0 50px #ffd700;;
+}

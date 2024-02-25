@@ -1,0 +1,17 @@
+.ThreeDish {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.FoodName {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: goldenrod;
+}
+
+.FoodDescription {
+    font-size: 20px;
+}
+
