@@ -3,6 +3,10 @@ import data from '../../../json/data.json';
 
 import '../css/dataSeventTime.css';
 
+import HeaderSelect from '../../components/headerWithBorder';
+import '../css/headerSelectFood.css';
+
+
 interface MenuItem {
     id: number;
     image: string;
@@ -34,20 +38,27 @@ const DataSeventTime: React.FC = () => {
     }, []);
 
     return (
-        <div className='selectFood'>
-            <div className='fiveFoodList'>
-                {chefSpecial &&
-                    chefSpecial.map((item, index) => (
-                        <div className='ThreeDish' key={index}>
-                            <div className='LeftContainer'>
-                            <p key={index} className='FoodName'>{item.name}</p>
-                            <p key={index} className='FoodDescription'>{item.description}</p>
+        <div>
+            <div className='headerSelectFood'>
+                <HeaderSelect>
+                    Sélection spéciale
+                </HeaderSelect>
+            </div>
+            <div className='selectFood'>
+                <div className='fiveFoodList'>
+                    {chefSpecial &&
+                        chefSpecial.map((item, index) => (
+                            <div className='ThreeDish' key={index}>
+                                <div className='LeftContainer'>
+                                    <p key={index} className='FoodName'>{item.name}</p>
+                                    <p key={index} className='FoodDescription'>{item.description}</p>
+                                </div>
+                                <div className='RightContainer'>
+                                    <p key={index}>{item.price}€</p>
+                                </div>
                             </div>
-                            <div className='RightContainer'>
-                            <p key={index}>{item.price}€</p>
-                            </div>
-                        </div>
-                    ))}
+                        ))}
+                </div>
             </div>
         </div>
 

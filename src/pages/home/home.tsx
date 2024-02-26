@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 import Button from '../components/buttons';
 import DataThreeTime from './components/dataThreeTime';
 import DataSeventTime from './components/dataSeventTime';
-import HeaderSelectFood from './components/headerSelectFood';
 
 
 interface HomeProps {
@@ -37,7 +36,6 @@ const Home: React.FC<HomeProps> = () => {
       <div id='chefSpecialContainer'>
         <DataThreeTime />
       </div>
-      <HeaderSelectFood/>
       <div id='selectFoodContainer'>
           <DataSeventTime />
       </div>
