@@ -1,0 +1,33 @@
+.Block-image-text {
+    display: flex;
+    justify-content: flex-start;
+    margin: 300px;
+}
+
+
+.Left-content {
+    flex: 0;
+}
+
+.Right-content {
+    flex: 2;
+    padding-left: 300px ;
+}
+
+.BlockOpeningHours {
+    color: white;
+    margin-top: 50px;
+}
+
+.BlockOpeningHours h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.BlockOpeningHours p {
+    margin-top: 50px;
+    border-bottom: 1px solid goldenrod;
+    padding: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}

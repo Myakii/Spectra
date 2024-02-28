@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import data from '../../../json/data.json';
 
-import '../css/dataSeventTime.css';
+import './css/dataSixTime.css';
 
 import HeaderSelect from '../../components/headerWithBorder';
 import '../css/headerSelectFood.css';
@@ -31,7 +31,7 @@ const DataSeventTime: React.FC = () => {
 
         const specialDishes: MenuItem[] = [];
 
-        for (let i = 0; i < 7; i++) {
+        for (let i = 0; i < 6; i++) {
             specialDishes.push(getRandomDish());
         }
         setChefSpecial(specialDishes);

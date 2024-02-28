@@ -13,6 +13,7 @@
 
 .FoodDescription {
     font-size: 20px;
+    width: 50rem;
 }
 
 .selectFood {
@@ -20,4 +21,6 @@
     padding-left: 30px;
 }
 
-
+.fiveFoodList {
+    padding: 0 300px 0 300px;
+}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import data from '../../../json/data.json';
-import '../css/dataThreeTime.css';
+import './css/dataThreeTime.css';
 
 interface MenuItem {
   id: number;
