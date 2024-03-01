@@ -1,7 +1,7 @@
 // OpeningHours.tsx
 import React from 'react';
 import BlockImageText from '../../components/ImageRightTextLeft';
-import Button from '../../components/buttons';
+import Button from '../../components/button';
 
 import './css/OpeningHours.css';
 import { useNavigate } from 'react-router-dom';

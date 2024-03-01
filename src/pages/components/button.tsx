@@ -1,4 +1,5 @@
 import React from "react";
+import './css/button.css'
 
 interface ButtonProps {
   onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;

@@ -4,12 +4,10 @@ import './css/home.css';
 import './css/wallpaper.css';
 
 import { useNavigate } from 'react-router-dom';
-import Button from '../components/buttons';
+import Button from '../components/button';
 import DataThreeTime from './components/dataThreeTime';
 import DataSixtTime from './components/dataSixtTime';
 import OpeningHours from './components/OpeningHours';
-import HeaderSelect from '../components/headerWithBorder';
-
 
 
 interface HomeProps {
@@ -44,11 +42,6 @@ const Home: React.FC<HomeProps> = () => {
       </div>
       <div id='OpeningHoursContainer'>
         <OpeningHours />
-      </div>
-      <div id='FormBooking'>
-        <HeaderSelect>
-          Sélection spéciale
-        </HeaderSelect>
       </div>
     </div>
   );

@@ -1,0 +1,29 @@
+.bottombar {
+    color: white;
+    margin-left: 21.875rem;
+    margin-right: 21.875rem;
+    border-top: goldenrod 1px solid;
+    border-bottom: goldenrod 1px solid;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+}
+
+.bottombar h2 {
+    font-size: 35px;
+}
+
+.mainbar {
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+}
