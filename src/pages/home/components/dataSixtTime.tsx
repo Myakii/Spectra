@@ -3,9 +3,7 @@ import data from '../../../json/data.json';
 
 import './css/dataSixTime.css';
 
-import HeaderSelect from '../../components/headerWithBorder';
-import '../css/headerSelectFood.css';
-
+import LinerTitleLiner from '../../../components/LinerTitleLiner';
 
 interface MenuItem {
     id: number;
@@ -40,9 +38,9 @@ const DataSeventTime: React.FC = () => {
     return (
         <div>
             <div className='headerSelectFood'>
-                <HeaderSelect>
+                <LinerTitleLiner>
                     Sélection spéciale
-                </HeaderSelect>
+                </LinerTitleLiner>
             </div>
             <div className='selectFood'>
                 <div className='fiveFoodList'>

@@ -1,4 +1,5 @@
 import React from "react";
+import './css/LinerTitleLiner.css';
 
 interface HeaderWithBorderProps {
   children: React.ReactNode;

@@ -4,7 +4,7 @@ import './css/home.css';
 import './css/wallpaper.css';
 
 import { useNavigate } from 'react-router-dom';
-import Button from '../components/button';
+import Button from '../../components/Button.tsx';
 import DataThreeTime from './components/dataThreeTime';
 import DataSixtTime from './components/dataSixtTime';
 import OpeningHours from './components/OpeningHours';
