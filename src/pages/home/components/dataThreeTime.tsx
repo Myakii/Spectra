@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import data from '../../../json/data.json';
 import './css/dataThreeTime.css';
+import { Link } from 'react-router-dom';
 
 interface MenuItem {
   id: number;
@@ -40,9 +41,12 @@ const DataThreeTime: React.FC = () => {
       <div className='chefspecialSuggestion'>
         {chefSpecial &&
           chefSpecial.map((item, index) => (
-            <div className='ThreeDish' key={index}>
-              <img src={item.image} alt={item.name} />
-            </div>
+            <Link to='/menu'>
+              <div className='ThreeDish' key={index}>
+                <img src={item.image} alt={item.name} />
+                <p>{item.name}</p>
+              </div>
+            </Link>
           ))}
       </div>;
     </>)

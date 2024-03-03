@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/BlockImage.css";
+import "./css/BlockImageText.css";
 
 interface BlockImageTextProps {
   className?: string;

@@ -1,8 +1,13 @@
-.ThreeDish {
+.SixDish {
     color: white;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+}
+
+.fiveFoodList a {
+    text-decoration: none;
+    color: white;
 }
 
 .FoodName {
@@ -24,3 +29,4 @@
 .fiveFoodList {
     padding: 0 300px 0 300px;
 }
+

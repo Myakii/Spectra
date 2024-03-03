@@ -3,7 +3,6 @@ import React from 'react';
 import BlockImageText from '../../../components/BlockImageL';
 import Button from '../../../components/Button.tsx';
 
-import './css/OpeningHours.css';
 import { useNavigate } from 'react-router-dom';
 
 interface OpeningHoursProps {

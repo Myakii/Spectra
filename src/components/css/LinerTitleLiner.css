@@ -6,7 +6,7 @@
 .headerSelectFood div {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .headerSelectFood h3 {
@@ -16,7 +16,7 @@
 }
 
 .border-line {
-    width: 700px;
+    width: 550px;
     height: 1px;
     background-color: white;
 }

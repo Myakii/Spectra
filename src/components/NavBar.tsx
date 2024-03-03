@@ -1,9 +1,7 @@
 import React from "react";
-import Button from './Button';
-import { useNavigate } from 'react-router-dom';
-
 
 import "./css/NavBar.css";
+import ButtonBooking from "../pages/home/components/Buttons/ButtonBooking";
 
 
 interface NavBarProps {
@@ -17,19 +15,11 @@ const NavBar: React.FC<NavBarProps> = ({
     children,
     img,
 }) => {
-    const navigate = useNavigate();
-
-    function handleClickBooking(event: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
-        event.preventDefault();
-        navigate('../booking/booking');
-    }
 
     return (
         <nav>
             <div className={`header-container ${className}`}>
-                <Button onClick={handleClickBooking} className='ButtonOpeningHours'>
-                    Réservation
-                </Button>
+                <ButtonBooking />
                 <ul>
                     {children}
                 </ul>

@@ -1,19 +1,13 @@
 import React from 'react';
 import NavFooter from '../../../../components/NavFooter';
-import Button from '../../../../components/Button.tsx';
-import { useNavigate } from 'react-router-dom';
+import ButtonBooking from '../Buttons/ButtonBooking.tsx';
 
 interface FooterProps {
     className?: string;
 }
 
 const Footer: React.FC<FooterProps> = () => {
-    const navigate = useNavigate();
 
-    function handleClickBooking(event: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
-        event.preventDefault();
-        navigate('../booking/booking');
-    }
     return (
         <footer>
             <NavFooter>
@@ -31,9 +25,7 @@ const Footer: React.FC<FooterProps> = () => {
                             <p className='OpeningHours1'>Lundi - Vendredi : 10h00 - 23h30</p>
                             <p className='OpeningHours2'> Samedi - Dimanche : 11h00 - 00h30</p>
                         </div>
-                        <Button onClick={handleClickBooking} className='ButtonOpeningHours'>
-                            Réservation
-                        </Button>
+                        <ButtonBooking />
                     </div>
                 </div>
                 <div className='BottomCol'>
