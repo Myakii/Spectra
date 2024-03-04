@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/NavBar.css";
-import ButtonBooking from "../pages/home/components/Buttons/ButtonBooking";
+import ButtonBooking from "../pages/home/components/ButtonBooking";
 
 
 interface NavBarProps {

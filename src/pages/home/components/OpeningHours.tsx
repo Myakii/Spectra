@@ -1,21 +1,14 @@
 // OpeningHours.tsx
 import React from 'react';
 import BlockImageText from '../../../components/BlockImageL';
-import Button from '../../../components/Button.tsx';
+import ButtonBooking from './ButtonBooking.tsx';
 
-import { useNavigate } from 'react-router-dom';
 
 interface OpeningHoursProps {
     className?: string;
 }
 
 const OpeningHours: React.FC<OpeningHoursProps> = () => {
-    const navigate = useNavigate();
-
-    function handleClickBooking(event: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
-        event.preventDefault();
-        navigate('../booking/booking');
-    }
 
     return (
         <div className='OpeningHours'>
@@ -24,9 +17,7 @@ const OpeningHours: React.FC<OpeningHoursProps> = () => {
                     <h2>Heure d'ouverture</h2>
                     <p>Lundi - Vendredi : 10h00 - 23h30</p>
                     <p>Samedi - Dimanche : 11h00 - 00h30</p>
-                    <Button onClick={handleClickBooking} className='ButtonOpeningHours'>
-                        Réservation
-                    </Button>
+                    <ButtonBooking/>
                 </div>
             </BlockImageText>
         </div>

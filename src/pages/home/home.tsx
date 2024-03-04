@@ -5,9 +5,9 @@ import './css/wallpaper.css';
 
 import { useNavigate } from 'react-router-dom';
 import Button from '../../components/Button.tsx';
-import DataThreeTime from './components/dataThreeTime';
-import DataSixtTime from './components/dataSixtTime';
-import OpeningHours from './components/OpeningHours';
+import DataThreeTime from './components/DataThreeTime.tsx';
+import DataSixtTime from './components/DataSixtTime.tsx';
+import OpeningHours from './components/OpeningHours.tsx';
 
 
 interface HomeProps {

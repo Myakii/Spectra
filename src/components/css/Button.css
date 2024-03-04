@@ -1,9 +1,10 @@
-button {
+.Button a {
     padding: 20px;
     border: 0px solid white;
     cursor: pointer;
     background-color: transparent;
     color: white;
+    text-decoration: none;
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
     width: 150px;

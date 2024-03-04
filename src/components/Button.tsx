@@ -1,17 +1,17 @@
 import React from "react";
 import "./css/Button.css";
+import { Link } from "react-router-dom";
 
 interface ButtonProps {
-  onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
-  className?: string;
   children: React.ReactNode;
+  to: string
 }
 
-const Button: React.FC<ButtonProps> = ({ onClick, className, children }) => {
+const Button: React.FC<ButtonProps> = ({ to, children }) => {
   return (
-    <button className={className} onClick={onClick}>
+    <Link to={to}>
       {children}
-    </button>
+    </Link>
   );
 };
 

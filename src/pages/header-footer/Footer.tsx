@@ -1,6 +1,6 @@
 import React from 'react';
-import NavFooter from '../../../../components/NavFooter';
-import ButtonBooking from '../Buttons/ButtonBooking.tsx';
+import NavFooter from '../../components/NavFooter.tsx';
+import ButtonBooking from '../home/components/ButtonBooking.tsx';
 
 interface FooterProps {
     className?: string;
