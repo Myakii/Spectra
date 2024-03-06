@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 interface ButtonProps {
   children: React.ReactNode;
-  to: string
+  to: string;
+  type?: string;
+
 }
 
 const Button: React.FC<ButtonProps> = ({ to, children }) => {

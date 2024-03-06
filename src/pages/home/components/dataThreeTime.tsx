@@ -40,9 +40,9 @@ const DataThreeTime: React.FC = () => {
       </div>
       <div className='chefspecialSuggestion'>
         {chefSpecial &&
-          chefSpecial.map((item, index) => (
-            <Link to='/menu'>
-              <div className='ThreeDish' key={index}>
+          chefSpecial.map((item) => (
+            <Link to='/menu' key={item.id}>
+              <div className='ThreeDish'>
                 <img src={item.image} alt={item.name} />
                 <p>{item.name}</p>
               </div>

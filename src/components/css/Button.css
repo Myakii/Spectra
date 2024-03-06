@@ -1,4 +1,4 @@
-.Button a {
+.Button {
     padding: 20px;
     border: 0px solid white;
     cursor: pointer;
@@ -8,6 +8,7 @@
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
     width: 150px;
+    text-align: center;
     position: relative;
     &::after, &::before {
         content: "";
@@ -37,4 +38,9 @@
             height: 100%;
         }
     }
+}
+
+.Button a {
+    color: white;
+    text-decoration: none;
 }
