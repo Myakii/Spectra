@@ -1,7 +1,6 @@
 import React from 'react';
 
-import './css/home.css';
-import './css/wallpaper.css';
+import './css/home.css';;
 
 import DataThreeTime from './components/DataThreeTime.tsx';
 import DataSixtTime from './components/DataSixtTime.tsx';

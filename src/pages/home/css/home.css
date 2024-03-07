@@ -17,3 +17,58 @@
     margin-left: 70px;
     margin-top: 100px;
 }
+
+/* Wallpaper */
+#WallpaperContainer {
+    height: 85vh;
+}
+
+.WallpaperHome {
+    height: 85vh;
+    background-image: url('../../../assets/wallpaper/background_wallpaper.jpg');
+    opacity: 0.5;
+}
+
+.IntroducingHome {
+    position: absolute;
+    top: 200px;
+    color: white;
+    background: transparent;
+    margin: 200px 0px 0px 200px;
+}
+
+.IntroducingHome h2 {
+    background: transparent;
+    font-size: 60px;
+    letter-spacing: 5px
+}
+
+.ButtonMenu {
+    margin-top: 20px;
+}
+
+/* Header Select */
+.headerSelectFood {
+    margin-top: 170px;
+    margin-bottom: 80px;
+}
+
+.headerSelectFood div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerSelectFood h3 {
+    color: white;
+    border: 1px solid white;
+    padding: 25px;
+}
+
+.border-line {
+    width: 700px;
+    height: 1px;
+    background-color: white;
+}
+
+
