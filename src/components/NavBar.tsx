@@ -19,7 +19,7 @@ const NavBar: React.FC<NavBarProps> = ({
     return (
         <nav>
             <div className={`header-container ${className}`}>
-                <ButtonBooking />
+                <ButtonBooking className="booking-button"/>
                 <ul>
                     {children}
                 </ul>

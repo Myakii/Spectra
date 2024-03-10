@@ -128,35 +128,35 @@
       "description": "Un poulpe grillé tendre, associé à des tagliatelles à l'encre de seiche, sublimé par une sauce tomate à l'ail, le tout garni d'herbes fraîches et d'une touche de citron."
     },
     {
-      "id": 6,
+      "id": 5,
       "image": "src/assets/main_dish/Splendeur.jpg",
       "name": "Splendeur des Profondeurs Grillée ",
       "price": 20,
       "description": "Un délice océanique avec du calmar grillé à la perfection, offrant une symphonie de saveurs raffinées pour les palais les plus exigeants."
     },
     {
-      "id": 7,
+      "id": 6,
       "image": "src/assets/main_dish/Fragment.jpg",
       "name": "Fragment d'Italie ",
       "price": 17,
       "description": "Un mélange exquis de pâtes fines, de sauce bolognaise maison, de béchamel crémeuse et de fromages affinés, le tout gratiné à la perfection."
     },
     {
-      "id": 8,
+      "id": 7,
       "image": "src/assets/main_dish/Royal.jpg",
       "name": "Le Royal Oeuf Doré ",
       "price": 17,
       "description": "Burger d'Exception, Délicieux Oeuf Mollet, Pain Brioché Artisanal, Agrémenté de Fromage Fondant et d'une Touche Raffinée de Sauce Secrète."
     },
     {
-      "id": 9,
+      "id": 8,
       "image": "src/assets/main_dish/Etoilée.jpg",
       "name": "L'Éclat Milanaise ",
       "price": 15.99,
       "description": "Escalope d'Excellence, Dorée à la Panure Croustillante, Servie avec une Sauce Tomate Maison et un Soupçon de Parmesan."
     },
     {
-      "id": 10,
+      "id": 9,
       "image": "src/assets/main_dish/K-Mélodie.jpg",
       "name": "K-Mélodie ",
       "price": 15,

@@ -1,17 +1,25 @@
 import React from 'react';
 import Button from '../../../components/Button';
+import { useNavigate } from 'react-router-dom';
 
 interface ButtonMenuProps {
     className?: string;
+    type?: string;
+    onClick? : () => void;
+    to: string;
 }
 
-const ButtonMenu: React.FC<ButtonMenuProps> = () => {
+const ButtonMenu: React.FC<ButtonMenuProps> = ({ className, to }) => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+      navigate(to);
+    };
+  
     return (
-        <div className='Button'>
-            <Button to='/menu'>
-                Menu
-            </Button>
-        </div>
-    )
-}
-export default ButtonMenu
+      <Button to={'/menu'} className={`button ${className}`} onClick={handleClick}>
+        Menu
+      </Button>
+    );
+  };
+export default ButtonMenu;

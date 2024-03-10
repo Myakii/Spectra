@@ -6,6 +6,7 @@ import Booking from './pages/booking/Booking';
 import Payment from './pages/booking/components/Payment';
 import NotFoundPage from './pages/booking/components/NotFoundPage';
 import ProtectedLink from './pages/booking/components/ProtectLink';
+import Menu from './pages/menu/MenuCard';
 
 const App: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/accueil" element={<Home />} />
-          <Route path="/menu" element={<Home />} />
+          <Route path="/menu" element={<Menu/>} />
           <Route path="/contact" element={<Home />} />
           <Route path="/reservation" element={<Booking />} />
           <Route path='/payment' element={<Payment/>}/>

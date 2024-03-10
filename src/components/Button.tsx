@@ -1,19 +1,25 @@
 import React from "react";
 import "./css/Button.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface ButtonProps {
   children: React.ReactNode;
   to: string;
-  type?: string;
-
+  className?: string;
+  onClick? : () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ to, children }) => {
+const Button: React.FC<ButtonProps> = ({ to, children, className }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(to);
+  };
+
   return (
-    <Link to={to}>
+    <button className={`Button ${className}`} onClick={handleClick}>
       {children}
-    </Link>
+    </button>
   );
 };
 
