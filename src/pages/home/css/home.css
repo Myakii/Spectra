@@ -1,21 +1,20 @@
 #chefSpecialContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 150px;
+    margin-top: 200px;
+    width: 100%;
 }
 
 
 #selectFoodContainer {
-    height: 100vh;
-    padding: 50px;
+    width: 100%;
 }
 
 
 #OpeningHoursContainer {
-    margin-left: 70px;
-    margin-top: 100px;
+    margin-top: 200px;
+    width: 100%;
+    margin-bottom: 200px;
 }
 
 /* Wallpaper */
@@ -31,10 +30,10 @@
 
 .IntroducingHome {
     position: absolute;
-    top: 200px;
+    top: 350px;
     color: white;
     background: transparent;
-    margin: 200px 0px 0px 200px;
+    margin-left: 200px;
 }
 
 .IntroducingHome h2 {
@@ -47,28 +46,7 @@
     margin-top: 20px;
 }
 
-/* Header Select */
-.headerSelectFood {
-    margin-top: 170px;
-    margin-bottom: 80px;
+#food-container {
+    width: 80%;
+    margin: auto;
 }
-
-.headerSelectFood div {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.headerSelectFood h3 {
-    color: white;
-    border: 1px solid white;
-    padding: 25px;
-}
-
-.border-line {
-    width: 700px;
-    height: 1px;
-    background-color: white;
-}
-
-

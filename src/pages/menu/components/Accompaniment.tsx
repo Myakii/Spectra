@@ -8,19 +8,19 @@ interface MenuItem {
   description: string;
 }
 
-const DataSauce: React.FC = () => {
+const DataAccompaniment: React.FC = () => {
   const [menuItems, setMenuItems] = useState<MenuItem[] | null>(null);
 
   useEffect(() => {
-    if (data && data.sauce) {
-      setMenuItems(data.sauce);
+    if (data && data.accompaniment) {
+      setMenuItems(data.accompaniment);
     }
   }, []);
 
   return (
-    <div className='Sauce-container'>
+    <div className='Accompaniment-container'>
       {menuItems && menuItems.map((item) => (
-        <div className='Sauce-menu' key={item.id}>
+        <div className='Accompaniment-menu' key={item.id}>
             <p className='FoodName'>{item.name}</p>
             <p className='item-description'>{item.description}</p>
         </div>
@@ -29,4 +29,4 @@ const DataSauce: React.FC = () => {
   );
 };
 
-export default DataSauce;
+export default DataAccompaniment;

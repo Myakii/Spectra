@@ -1,6 +1,6 @@
 import React, { useState, ChangeEvent } from 'react';
 import './css/Booking.css';
-import ButtonPayment from './components/ButtonPayment';
+import Button from '../../components/Button';
 
 interface BookingProps {
   className?: string,
@@ -38,7 +38,9 @@ const Booking: React.FC<BookingProps> = () => {
         <input type='text' placeholder='Votre numéro de téléphone' className='phone' value={phone} onChange={handlePhoneChange} required />
         <input type="date" id="start" name="trip-start" value={date} min="2018-01-01" max="2024-12-30" className='date' onChange={handleDateChange} required />
         <textarea placeholder='Avez-vous des exigences particulières?' value={requirements} onChange={handleRequirementsChange} rows={20}></textarea>
-        <ButtonPayment/>
+        <Button to='/payment'>
+          Confirmation
+        </Button>
       </div>
     </div>
   );

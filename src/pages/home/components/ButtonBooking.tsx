@@ -17,7 +17,7 @@ const ButtonBooking: React.FC<ButtonBookingProps> = ({ className, to }) => {
     };
   
     return (
-      <Button to={'/booking'} className={`button ${className}`} onClick={handleClick}>
+      <Button to={'/reservation'} className={`button ${className}`} onClick={handleClick}>
         Réservation
       </Button>
     );

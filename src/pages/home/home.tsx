@@ -20,17 +20,19 @@ const Home: React.FC<HomeProps> = () => {
         <div className='WallpaperHome'></div>
         <div className='IntroducingHome'>
           <h2>LA CUISINE PAR EXCELLENCE</h2>
-          <ButtonMenu/>
+          <ButtonMenu />
         </div>
       </div>
-      <div id='chefSpecialContainer'>
-        <DataThreeTime />
-      </div>
-      <div id='selectFoodContainer'>
-        <DataSixtTime />
-      </div>
-      <div id='OpeningHoursContainer'>
-        <OpeningHours />
+      <div id='food-container'>
+        <div id='chefSpecialContainer'>
+          <DataThreeTime />
+        </div>
+        <div id='selectFoodContainer'>
+          <DataSixtTime />
+        </div>
+        <div id='OpeningHoursContainer'>
+          <OpeningHours />
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import data from '../../../json/Data.json';
-import './css/Main_Dish.css'
+
+import LinerTitleLiner from '../../../components/LinerTitleLiner';
+
 
 interface MenuItem {
   id: number;
@@ -21,12 +23,23 @@ const DataDessert: React.FC = () => {
 
   return (
     <div className='Dessert-container'>
-      <h2>Desserts</h2>
+      <div className='headerSelectFood'>
+        <LinerTitleLiner>
+          Nos Dessert
+        </LinerTitleLiner>
+      </div>
       {menuItems && menuItems.map((item) => (
         <div className='Dessert-menu' key={item.id}>
-          <p>{item.name}</p>
+          <div className='LeftContainer'>
+            <p className='FoodName'>{item.name}</p>
+            <p className='item-description'>{item.description}</p>
+          </div>
+          <div className='RightContainer'>
+            <p>{item.price} €</p>
+          </div>
         </div>
-      ))}
+      ))
+      }
     </div>
   );
 };

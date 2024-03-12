@@ -5,16 +5,21 @@ import './css/MenuCard.css'
 import DataDessert from './components/Dessert';
 import DataStarter from './components/Starter';
 import DataSauce from './components/Sauce';
+import DataAccompaniment from './components/Accompaniment';
+import Menu from './components/Menu';
 
-export default function Menu() {
+export default function MenuCard() {
   return (
-    <div className='Menu-container'>
-      <p>Menu</p>
+    <div className='MenuCards-container'>
+      {/* <Menu/> */}
       <DataStarter/>
       <DataMainDishMenu/>
       <DataDrink/>
       <DataDessert/>
-      <DataSauce/>
+      <div className='bottom-unlimited'>
+        <DataSauce/>
+        <DataAccompaniment/>
+      </div>
     </div>
   )
 }

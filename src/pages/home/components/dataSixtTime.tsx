@@ -37,32 +37,30 @@ const DataSeventTime: React.FC = () => {
     }, []);
 
     return (
-        <div>
+
+        <div className='selectFood'>
             <div className='headerSelectFood'>
                 <LinerTitleLiner>
                     Sélection spéciale
                 </LinerTitleLiner>
             </div>
-            <div className='selectFood'>
-                <div className='fiveFoodList'>
-                    {chefSpecial &&
-                        chefSpecial.map((item) => (
-                            <Link to='/menu' key={item.id}>
-                                <div className='SixDish'>
-                                    <div className='LeftContainer'>
-                                        <p className='FoodName'>{item.name}</p>
-                                        <p className='item.description'>{item.description}</p>
-                                    </div>
-                                    <div className='RightContainer'>
-                                        <p>{item.price}€</p>
-                                    </div>
+            <div className='fiveFoodList'>
+                {chefSpecial &&
+                    chefSpecial.map((item) => (
+                        <Link to='/menu' key={item.id}>
+                            <div className='SixDish'>
+                                <div className='LeftContainer'>
+                                    <p className='FoodName'>{item.name}</p>
+                                    <p className='item-description'>{item.description}</p>
                                 </div>
-                            </Link>
-                        ))}
-                </div>
+                                <div className='RightContainer'>
+                                    <p>{item.price}€</p>
+                                </div>
+                            </div>
+                        </Link>
+                    ))}
             </div>
         </div>
-
     );
 };
 

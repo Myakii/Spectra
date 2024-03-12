@@ -17,7 +17,7 @@ const ButtonMenu: React.FC<ButtonMenuProps> = ({ className, to }) => {
     };
   
     return (
-      <Button to={'/menu'} className={`button ${className}`} onClick={handleClick}>
+      <Button to={'/carte'} className={`button ${className}`} onClick={handleClick}>
         Menu
       </Button>
     );

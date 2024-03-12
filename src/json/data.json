@@ -116,7 +116,7 @@
     {
       "id": 3,
       "image": "src/assets/main_dish/Noblia.jpg",
-      "name": "Le Délice du Bœuf Noblia : Rumsteak Signature ",
+      "name": "Le Délice du Bœuf Noblia",
       "price": 18,
       "description": "Un rumsteak délicatement mariné et grillé à la perfection, servi avec une garniture raffinée de légumes du jour."
     },
@@ -170,7 +170,7 @@
       "name": "Fraicheur d'Elite ",
       "price": 3,
       "alcool": "Sans alcool",
-      "description": "ne boisson rafraîchissante mêlant l'acidité subtile du citron à la fraîcheur de la menthe. "
+      "description": "Une boisson rafraîchissante mêlant l'acidité subtile du citron à la fraîcheur de la menthe. "
     },
     {
       "id": 2,

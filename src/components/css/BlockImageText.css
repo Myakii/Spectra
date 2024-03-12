@@ -1,10 +1,6 @@
 .Block-image-text {
     display: flex;
-    justify-content: flex-start;
-    margin: 100px 230px 300px 0px;
     gap: 100px;
-    padding-right: 160px;
-    padding-left: 300px;
 }
 
 .Block-image-text p {

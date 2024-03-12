@@ -1,7 +1,42 @@
-.Menu-container {
+.MenuCards-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
-    margin: 100px 0 0 100px;
+    margin: auto;
+    width: 80%
+}
+
+.bottom-unlimited {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+/*  */
+
+.Main_Dish-container, .Drink-container, .Dessert-container, .Starter-container   {
+    width: 100%;
+}
+
+.Main_Dish-menu, .Drink-menu, .Dessert-menu, .Starter-menu  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fiveFoodList a {
+    text-decoration: none;
+    color: white;
+}
+
+.FoodName {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: goldenrod;
+}
+
+p.item-description {
+    font-size: 20px;
 }
