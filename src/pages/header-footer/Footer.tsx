@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = () => {
     return (
         <footer>
             <NavFooter>
-                <div className='NavFooter'>
+                <div id='NavFooter'>
                     <div className='FirstCol'>
                         <h2>info@recrutement.com</h2>
                     </div>
@@ -39,4 +39,3 @@ const Footer: React.FC<FooterProps> = () => {
 }
 
 export default Footer;
-

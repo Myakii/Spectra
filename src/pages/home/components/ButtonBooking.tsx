@@ -6,14 +6,14 @@ interface ButtonBookingProps {
     className?: string;
     type?: string;
     onClick? : () => void;
-    to: string;
+    to?: string;
 }
 
-const ButtonBooking: React.FC<ButtonBookingProps> = ({ className, to }) => {
+const ButtonBooking: React.FC<ButtonBookingProps> = ({ className }) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-      navigate(to);
+      navigate('/reservation');
     };
   
     return (

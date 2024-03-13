@@ -9,12 +9,18 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = () => {
+    const scrollToFooter = () => {
+        const footer = document.getElementById('NavFooter');
+        if (footer) {
+          footer.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
     return (
         <header>
             <NavBar img={Logo}>
                 <li><Link to="/accueil"><span>Accueil</span></Link></li>
                 <li><Link to="/carte"><span>Menu</span></Link></li>
-                <li><a href="#"><span>Contact</span></a></li>
+                <li><Link to="/#NavFooter" onClick={scrollToFooter}><span>Contact</span></Link></li>
             </NavBar>
         </header>
     );

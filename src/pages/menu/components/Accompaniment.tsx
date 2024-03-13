@@ -19,6 +19,7 @@ const DataAccompaniment: React.FC = () => {
 
   return (
     <div className='Accompaniment-container'>
+      <h2>Accompagnements</h2>
       {menuItems && menuItems.map((item) => (
         <div className='Accompaniment-menu' key={item.id}>
             <p className='FoodName'>{item.name}</p>

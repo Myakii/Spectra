@@ -6,19 +6,26 @@ import DataDessert from './components/Dessert';
 import DataStarter from './components/Starter';
 import DataSauce from './components/Sauce';
 import DataAccompaniment from './components/Accompaniment';
-import Menu from './components/Menu';
+import LinerTitleLiner from '../../components/LinerTitleLiner';
 
 export default function MenuCard() {
   return (
     <div className='MenuCards-container'>
       {/* <Menu/> */}
-      <DataStarter/>
-      <DataMainDishMenu/>
-      <DataDrink/>
-      <DataDessert/>
-      <div className='bottom-unlimited'>
-        <DataSauce/>
-        <DataAccompaniment/>
+      <DataStarter />
+      <DataMainDishMenu />
+      <DataDrink />
+      <DataDessert />
+      <div className='bottom-container'>
+        <div className='headerSelectFood'>
+          <LinerTitleLiner>
+            À volonté
+          </LinerTitleLiner>
+        </div>
+        <div className='bottom-unlimited'>
+          <DataSauce />
+          <DataAccompaniment />
+        </div>
       </div>
     </div>
   )

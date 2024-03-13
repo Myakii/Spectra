@@ -6,14 +6,14 @@ interface ButtonMenuProps {
     className?: string;
     type?: string;
     onClick? : () => void;
-    to: string;
+    to?: string;
 }
 
-const ButtonMenu: React.FC<ButtonMenuProps> = ({ className, to }) => {
+const ButtonMenu: React.FC<ButtonMenuProps> = ({ className }) => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-      navigate(to);
+      navigate('/carte');
     };
   
     return (

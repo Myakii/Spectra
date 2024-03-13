@@ -19,6 +19,7 @@ const DataSauce: React.FC = () => {
 
   return (
     <div className='Sauce-container'>
+      <h2>Sauces</h2>
       {menuItems && menuItems.map((item) => (
         <div className='Sauce-menu' key={item.id}>
             <p className='FoodName'>{item.name}</p>
