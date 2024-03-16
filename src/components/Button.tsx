@@ -7,9 +7,11 @@ interface ButtonProps {
   to: string;
   className?: string;
   onClick? : () => void;
+  type?: string;
+  disabled?: boolean;
 }
 
-const Button: React.FC<ButtonProps> = ({ to, children, className }) => {
+const Button: React.FC<ButtonProps> = ({ to, children, className, disabled }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -17,7 +19,7 @@ const Button: React.FC<ButtonProps> = ({ to, children, className }) => {
   };
 
   return (
-    <button className={`Button ${className}`} onClick={handleClick}>
+    <button className={`Button ${className}`} onClick={handleClick} type="submit" disabled={disabled}>
       {children}
     </button>
   );

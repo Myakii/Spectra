@@ -1,0 +1,62 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+    background-color: black;
+}
+
+.not-found-content {
+    text-align: left;
+}
+
+.not-found-content h1 {
+    font-size: 10rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+.not-found-content h2 {
+    font-size: 3rem;
+    color: #a8a8a8;
+    margin: 40px 0 20px;
+}
+
+.not-found-content p {
+    font-size: 1.5rem;
+    color: #a8a8a8;
+    margin-bottom: 20px;
+}
+
+.not-found-content a {
+    color: #a8a8a8;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.not-found-content a:hover {
+    color: white;
+}
+
+.not-found-content a:hover::after {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    /* Styles spécifiques pour les téléphones */
+    .not-found-content {
+        height: 55vh;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .not-found-content h1 {
+        font-size: 7rem;
+    }
+
+    .not-found-content h2 {
+        font-size: 2rem;
+    }
+    .not-found-content a {
+        color: white;
+    }
+}

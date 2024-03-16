@@ -1,19 +1,17 @@
 #Booking-container {
     height: 100vh;
-    width: 53%;
-    margin: auto;
-    padding: 40px;
+    background-color: black;
 }
 
 .Booking-Form {
     height: 70vh;
-    width: 800px;
-    border: 1px solid white;
+    margin: auto;
     padding: 100px;
     color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 40%;
 }
 
 .Booking-Form p {
@@ -26,24 +24,29 @@
     font-size: 36px;
 }
 
-.Booking-Form input, textarea {
+.Booking-Form label {
+    text-align: left;
+    padding: 5px;
+}
+
+.Booking-Form input, .Booking-Form textarea {
     margin-bottom: 15px;
     background-color: transparent;
     padding: 15px;
-    color: white;
     border: 1px solid white;
+    color: grey;
 }
 
-.Booking-Form input::placeholder, textarea::placeholder {
-    color: white;
-    font-size: 18px;
-    font-family: 'Libre Baskerville', serif;
-}
 
 .Booking-Form input:focus, textarea:focus {
     box-shadow: 0 0 15px white;
+    color: white;
 }
 
 .Booking-Form .Button {
     margin: 50px auto 0 auto;
+}
+
+.error-message {
+    color: red;
 }

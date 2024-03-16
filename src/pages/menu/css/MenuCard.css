@@ -1,37 +1,33 @@
 .MenuCards-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     color: white;
     margin: auto;
-    width: 80%
+    background-color: black;
 }
 
 .bottom-unlimited {
     margin-bottom: 100px;
     display: flex;
     gap: 50px;
-    padding-top: 50px;
+    padding: 50px;
+    padding-left: 95px;
+    padding-right: 95px;
 }
 
 .bottom-unlimited h2 {
-    font-size: 35px;
     padding-bottom: 5px;
     color: white;
     border-bottom: 1px solid white;
     margin-bottom: 35px;
 }
 
-/*  */
-
-.Main_Dish-container, .Drink-container, .Dessert-container, .Starter-container   {
-    width: 100%;
-}
-
-.Main_Dish-menu, .Drink-menu, .Dessert-menu, .Starter-menu  {
+.Main_Dish-menu, .Drink-menu, .Dessert-menu, .Starter-menu {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 .fiveFoodList a {
