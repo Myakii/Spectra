@@ -11,8 +11,9 @@ La possibilité de réserver une table grâce au formulaire du bouton de "réser
 
 ## Installation
 En installant le fichier, il faudra effectuer un 
+```npm i```
+Et en suite lancer le projet avec
 ```npm run dev```
-Et cliquer sur le localhost d'éditeur de code.
 
 ## Auteurs
 - Yang Rosine
