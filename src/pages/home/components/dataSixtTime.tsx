@@ -47,7 +47,7 @@ const DataSeventTime: React.FC = () => {
             <div className='fiveFoodList'>
                 {chefSpecial &&
                     chefSpecial.map((item) => (
-                        <Link to='/menu' key={item.id}>
+                        <Link to='/carte' key={item.id}>
                             <div className='SixDish'>
                                 <div className='LeftContainer'>
                                     <p className='FoodName'>{item.name}</p>

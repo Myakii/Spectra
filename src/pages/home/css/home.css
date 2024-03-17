@@ -1,56 +1,117 @@
-#HomeContainer {
-    background-color: black;
+@media screen and (min-width: 767px) {
+    #HomeContainer {
+        background-color: black;
+    }
+
+    #chefSpecialContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        width: 100%;
+    }
+
+
+    #selectFoodContainer {
+        width: 100%;
+    }
+
+
+    #OpeningHoursContainer {
+        margin-top: 200px;
+        width: 100%;
+        padding-bottom: 200px;
+    }
+
+    /* Wallpaper */
+    #WallpaperContainer {
+        height: 85vh;
+    }
+
+    .WallpaperHome {
+        height: 85vh;
+        background-image: url('../../../assets/wallpaper/background_wallpaper.jpg');
+        opacity: 0.5;
+    }
+
+    .IntroducingHome {
+        position: absolute;
+        top: 350px;
+        color: white;
+        background: transparent;
+        margin-left: 200px;
+    }
+
+    .IntroducingHome h2 {
+        background: transparent;
+        font-size: 60px;
+        letter-spacing: 5px
+    }
+
+    .ButtonMenu {
+        margin-top: 20px;
+    }
+
+    #food-container {
+        width: 80%;
+        margin: auto;
+    }
 }
 
-#chefSpecialContainer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 200px;
-    width: 100%;
-}
+@media screen and (max-width: 767px) {
+    #HomeContainer {
+        background-color: black;
+    }
+
+    #chefSpecialContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        width: 100%;
+    }
 
 
-#selectFoodContainer {
-    width: 100%;
-}
+    #selectFoodContainer {
+        width: 100%;
+    }
 
 
-#OpeningHoursContainer {
-    margin-top: 200px;
-    width: 100%;
-    padding-bottom: 200px;
-}
+    #OpeningHoursContainer {
+        margin-top: 200px;
+        width: 100%;
+        padding-bottom: 200px;
+    }
 
-/* Wallpaper */
-#WallpaperContainer {
-    height: 85vh;
-}
+    /* Wallpaper */
+    #WallpaperContainer {
+        height: 85vh;
+    }
 
-.WallpaperHome {
-    height: 85vh;
-    background-image: url('../../../assets/wallpaper/background_wallpaper.jpg');
-    opacity: 0.5;
-}
+    .WallpaperHome {
+        height: 85vh;
+        background-image: url('../../../assets/wallpaper/background_wallpaper.jpg');
+        opacity: 0.5;
+    }
 
-.IntroducingHome {
-    position: absolute;
-    top: 350px;
-    color: white;
-    background: transparent;
-    margin-left: 200px;
-}
+    .IntroducingHome {
+        position: absolute;
+        top: 350px;
+        color: white;
+        background: transparent;
+        margin-left: 200px;
+    }
 
-.IntroducingHome h2 {
-    background: transparent;
-    font-size: 60px;
-    letter-spacing: 5px
-}
+    .IntroducingHome h2 {
+        background: transparent;
+        font-size: 60px;
+        letter-spacing: 5px
+    }
 
-.ButtonMenu {
-    margin-top: 20px;
-}
+    .ButtonMenu {
+        margin-top: 20px;
+    }
 
-#food-container {
-    width: 80%;
-    margin: auto;
+    #food-container {
+        width: 80%;
+        margin: auto;
+    }
 }
