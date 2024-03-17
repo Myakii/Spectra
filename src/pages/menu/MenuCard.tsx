@@ -1,4 +1,3 @@
-import React from 'react'
 import DataMainDishMenu from './components/Main_Dish';
 import DataDrink from './components/Drink';
 import './css/MenuCard.css'

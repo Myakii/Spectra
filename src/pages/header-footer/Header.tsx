@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import Logo from '../../assets/img/logo.png';
-import NavBar from '../../components/NavBar';
 import { Link } from 'react-router-dom';
 import ButtonBooking from '../home/components/ButtonBooking';
-import Footer from './Footer';
+import '../css/NavBar.css';
 
 interface HeaderProps {
     className?: string;
@@ -28,17 +27,23 @@ const Header: React.FC<HeaderProps> = () => {
 
     return (
         <header>
-            <NavBar img={Logo}>
-                <li><Link to="/accueil"><span>Accueil</span></Link></li>
-                <li><Link to="/carte"><span>Menu</span></Link></li>
-                <li><Link to="/#NavFooter" onClick={scrollToFooter}><span>Contact</span></Link></li>
-                <div className={`burger ${isMenuOpen ? 'open' : ''}`} id="burger" onClick={toggleMenu}>
-                    <input type="checkbox" id="burger" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            <nav>
+                <div className='header-container'>
+                    <ButtonBooking/>
+                    <ul>
+                        <li><Link to="/accueil"><span>Accueil</span></Link></li>
+                        <li><Link to="/carte"><span>Menu</span></Link></li>
+                        <li><Link to="#NavFooter" onClick={scrollToFooter}><span>Contact</span></Link></li>
+                    </ul>
+                    <div className={`burger ${isMenuOpen ? 'open' : ''}`} id="burger" onClick={toggleMenu}>
+                        <input type="checkbox" id="burger" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img src={Logo} alt="Logo" className='logo' />
                 </div>
-            </NavBar>
+            </nav>
             <div className="mobile-menu" onClick={handleModalClick}>
                 {isMenuOpen && (
                     <div className='mobile-menu-container'>
@@ -47,10 +52,9 @@ const Header: React.FC<HeaderProps> = () => {
                             <ul>
                                 <li><Link to="/accueil" onClick={toggleMenu}><span>Accueil</span></Link></li>
                                 <li><Link to="/carte" onClick={toggleMenu}><span>Menu</span></Link></li>
-                                <li><Link to="/#NavFooter" onClick={() => { scrollToFooter(); toggleMenu(); }}><span>Contact</span></Link></li>
+                                <li><Link to="#NavFooter" onClick={scrollToFooter}><span>Contact</span></Link></li>
                             </ul>
-                            <ButtonBooking/>
-                            <Footer/>
+                            <ButtonBooking />
                         </div>
                     </div>
                 )}

@@ -1,17 +1,16 @@
 import React from 'react';
-import NavFooter from '../../components/NavFooter.tsx';
 import ButtonBooking from '../home/components/ButtonBooking.tsx';
+import '../css/NavFooter.css';
 
 interface FooterProps {
     className?: string;
 }
 
 const Footer: React.FC<FooterProps> = () => {
-
     return (
         <footer>
-            <NavFooter>
-                <div id='NavFooter'>
+            <div id='NavFooter'>
+                <div className='FooterContent'>
                     <div className='FirstCol'>
                         <h2>info@recrutement.com</h2>
                     </div>
@@ -28,13 +27,13 @@ const Footer: React.FC<FooterProps> = () => {
                         <ButtonBooking />
                     </div>
                 </div>
-                <div className='BottomCol'>
-                    <div className='Copyright'>
-                        <p>Spectra © 2024 Tous droits réservés.</p>
-                    </div>
+            </div>
+            <div className='BottomCol'>
+                <div className='Copyright'>
+                    <p>Spectra © 2024 Tous droits réservés.</p>
                 </div>
-            </NavFooter>
-        </footer >
+            </div>
+        </footer>
     );
 }
 

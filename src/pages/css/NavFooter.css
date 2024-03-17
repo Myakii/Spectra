@@ -1,5 +1,5 @@
 @media screen and (min-width: 767px) {
-    .footer-container {
+    footer {
         background-color: black;
     }
 
@@ -8,10 +8,8 @@
         border-bottom: goldenrod 1px solid;
         margin-right: 200px;
         margin-left: 200px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 100px 100px;
         color: white;
-        background-color: black;
     }
 
     .MainCol {
