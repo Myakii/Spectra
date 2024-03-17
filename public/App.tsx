@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/home/Home';
-import Header from './pages/header-footer/Header';
-import Footer from './pages/header-footer/Footer';
-import Booking from './pages/booking/Booking';
-import NotFoundPage from './pages/404/NotFoundPage';
-import MenuCard from './pages/menu/MenuCard';
-import Confirm from './pages/booking/Comfirm';
+import Home from '../src/pages/home/Home';
+import Header from '../src/pages/header-footer/Header';
+import Footer from '../src/pages/header-footer/Footer';
+import Booking from '../src/pages/booking/Booking';
+import NotFoundPage from '../src/pages/404/NotFoundPage';
+import MenuCard from '../src/pages/menu/MenuCard';
+import Confirm from '../src/pages/booking/Comfirm';
 
 import './pages/css/index.css'
 
