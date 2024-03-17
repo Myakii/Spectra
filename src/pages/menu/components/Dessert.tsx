@@ -29,10 +29,10 @@ const DataDessert: React.FC = () => {
         </LinerTitleLiner>
       </div>
       {menuItems && menuItems.map((item) => (
-        <div className='Dessert-menu' key={item.id}>
+        <div className='menu-container' key={item.id}>
           <div className='LeftContainer'>
-            <p className='FoodName'>{item.name}</p>
-            <p className='item-description'>{item.description}</p>
+            <h3>{item.name}</h3>
+            <p>{item.description}</p>
           </div>
           <div className='RightContainer'>
             <p>{item.price} €</p>

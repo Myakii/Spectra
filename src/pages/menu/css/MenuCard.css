@@ -1,4 +1,4 @@
-.MenuCards-container{
+.MenuCards-container {
     display: flex;
     flex-direction: column;
     color: white;
@@ -22,12 +22,13 @@
     margin-bottom: 35px;
 }
 
-.Main_Dish-menu, .Drink-menu, .Dessert-menu, .Starter-menu {
+.menu-container  {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     width: 80%;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 .fiveFoodList a {
@@ -35,12 +36,6 @@
     color: white;
 }
 
-.FoodName {
-    font-size: 30px;
-    margin-bottom: 10px;
-    color: goldenrod;
-}
-
-p.item-description {
-    font-size: 20px;
+.menu-container .LeftContainer {
+    width: 1300px;
 }

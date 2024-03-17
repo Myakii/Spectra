@@ -7,6 +7,8 @@ import NotFoundPage from './pages/404/NotFoundPage';
 import MenuCard from './pages/menu/MenuCard';
 import Confirm from './pages/booking/Comfirm';
 
+import './pages/css/index.css'
+
 const App: React.FC = () => {
   return (
     <Router>

@@ -2,7 +2,7 @@ import React from 'react';
 import './css/Confirm.css';
 
 interface ConfirmProps {
-    className: string,
+    className?: string,
 }
 
 const Confirm: React.FC<ConfirmProps> = () => {
