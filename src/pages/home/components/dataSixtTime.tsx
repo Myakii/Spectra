@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import data from '../../../json/Data.json';
-
 import './css/dataSixTime.css';
-
 import LinerTitleLiner from '../../../components/LinerTitleLiner';
 import { Link } from 'react-router-dom';
 
