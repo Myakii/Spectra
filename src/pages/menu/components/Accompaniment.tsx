@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import data from '../../../json/Data.json';
+import data from '../../../json/data.json';
 
 
 interface MenuItem {

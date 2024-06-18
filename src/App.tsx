@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/home/Home';
+import Home from './pages/home/home.tsx';
 import Header from './pages/header-footer/Header';
 import Footer from './pages/header-footer/Footer';
-import Booking from './pages/booking/Booking';
+import Booking from './pages/booking/booking.tsx';
 import NotFoundPage from './pages/404/NotFoundPage';
 import MenuCard from './pages/menu/MenuCard';
 import Confirm from './pages/booking/Comfirm';

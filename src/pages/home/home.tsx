@@ -2,8 +2,8 @@ import React from 'react';
 
 import './css/home.css';;
 
-import DataThreeTime from './components/DataThreeTime.tsx';
-import DataSixtTime from './components/DataSixtTime.tsx';
+import DataThreeTime from './components/dataThreeTime.tsx';
+import DataSixtTime from './components/dataSixtTime.tsx';
 import OpeningHours from './components/OpeningHours.tsx';
 import ButtonMenu from './components/ButtonMenu.tsx';
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import data from '../../../json/Data.json';
+import data from '../../../json/data.json';
 import './css/dataThreeTime.css';
 import { Link } from 'react-router-dom';
 
